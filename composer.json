@@ -1,5 +1,5 @@
 {
-    "name": "clumsy/utils",
+    "name": "wizclumsy/utils",
     "description": "A set of utilities for building Laravel applications",
     "keywords": ["laravel", "helper", "utilities"],
     "license": "MIT",
