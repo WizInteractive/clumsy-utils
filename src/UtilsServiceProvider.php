@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\Utils;
+namespace Wizclumsy\Utils;
 
-use Clumsy\Assets\Facade as Asset;
+use Wizclumsy\Assets\Facade as Asset;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Event;
@@ -113,7 +113,7 @@ class UtilsServiceProvider extends ServiceProvider
         Event::listen('register Clumsy validators', function () {
             $this->app['validator']->extend(
                 'multiples_of',
-                'Clumsy\Utils\Validation\MultiplesOf@validate',
+                'Wizclumsy\Utils\Validation\MultiplesOf@validate',
                 trans('clumsy/utils::validation.multiples_of')
             );
             $this->app['validator']->replacer('multiples_of', function ($message, $attribute, $rule, $parameters) {
@@ -122,25 +122,25 @@ class UtilsServiceProvider extends ServiceProvider
 
             $this->app['validator']->extend(
                 'email_advanced',
-                'Clumsy\Utils\Validation\EmailAdvanced@validate',
+                'Wizclumsy\Utils\Validation\EmailAdvanced@validate',
                 trans('clumsy/utils::validation.email_advanced')
             );
 
             $this->app['validator']->extend(
                 'current_password',
-                'Clumsy\Utils\Validation\CurrentPassword@validate',
+                'Wizclumsy\Utils\Validation\CurrentPassword@validate',
                 trans('clumsy/utils::validation.current_password')
             );
 
             $this->app['validator']->extend(
                 'postal',
-                'Clumsy\Utils\Validation\Postal@validate',
+                'Wizclumsy\Utils\Validation\Postal@validate',
                 trans('clumsy/utils::validation.postal')
             );
 
             $this->app['validator']->extend(
                 'id',
-                'Clumsy\Utils\Validation\Identities@validate',
+                'Wizclumsy\Utils\Validation\Identities@validate',
                 trans('clumsy/utils::validation.id')
             );
             $this->app['validator']->replacer('id', function ($message, $attribute, $rule, $parameters) {

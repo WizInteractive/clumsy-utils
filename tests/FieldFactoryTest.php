@@ -1,6 +1,6 @@
 <?php
 
-use Clumsy\Utils\Library\FieldFactory;
+use Wizclumsy\Utils\Library\FieldFactory;
 
 class FieldFactoryTest extends PHPUnit_Framework_TestCase
 {

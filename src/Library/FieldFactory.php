@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Library;
+namespace Wizclumsy\Utils\Library;
 
 use Collective\Html\FormFacade as Form;
 use Illuminate\Support\Traits\Macroable;

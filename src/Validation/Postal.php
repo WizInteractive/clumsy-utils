@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Validation;
+namespace Wizclumsy\Utils\Validation;
 
 use Illuminate\Support\Str;
 
@@ -28,7 +28,7 @@ class Postal
                 $country = head($parameters);
         }
 
-        $object = 'Clumsy\Utils\Validation\\'.Str::upper($country).'\Postal';
+        $object = 'Wizclumsy\Utils\Validation\\'.Str::upper($country).'\Postal';
 
         return with(new $object)->validate($attribute, $value, $parameters);
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Library;
+namespace Wizclumsy\Utils\Library;
 
 use InvalidArgumentException;
 use Collective\Html\FormFacade as Form;

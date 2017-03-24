@@ -1,5 +1,5 @@
 <?php
-namespace Clumsy\Utils\Library;
+namespace Wizclumsy\Utils\Library;
 
 use GeoIp2\Database\Reader;
 use Illuminate\Support\Facades\DB;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Controllers\Traits;
+namespace Wizclumsy\Utils\Controllers\Traits;
 
 use Illuminate\Support\Facades\Validator;
 

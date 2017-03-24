@@ -9,9 +9,9 @@ return [
     ],
 
     'transformations' => [
-        'Clumsy\Utils\Library\EnvironmentLocale@replaceUnderscoreTransformation',
-        'Clumsy\Utils\Library\EnvironmentLocale@replaceDashTransformation',
-        'Clumsy\Utils\Library\EnvironmentLocale@duplicateLocaleTransformation',
+        'Wizclumsy\Utils\Library\EnvironmentLocale@replaceUnderscoreTransformation',
+        'Wizclumsy\Utils\Library\EnvironmentLocale@replaceDashTransformation',
+        'Wizclumsy\Utils\Library\EnvironmentLocale@duplicateLocaleTransformation',
     ],
 
     'append' => [

@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Facades;
+namespace Wizclumsy\Utils\Facades;
 
 class Date extends \Illuminate\Support\Facades\Facade
 {
@@ -11,6 +11,6 @@ class Date extends \Illuminate\Support\Facades\Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'Clumsy\Utils\Library\Date';
+        return 'Wizclumsy\Utils\Library\Date';
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Facades;
+namespace Wizclumsy\Utils\Facades;
 
 class EnvironmentLocale extends \Illuminate\Support\Facades\Facade
 {
@@ -11,6 +11,6 @@ class EnvironmentLocale extends \Illuminate\Support\Facades\Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'Clumsy\Utils\Library\EnvironmentLocale';
+        return 'Wizclumsy\Utils\Library\EnvironmentLocale';
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Mail;
+namespace Wizclumsy\Utils\Mail;
 
 use GuzzleHttp\Client as HttpClient;
 use Illuminate\Mail\TransportManager;

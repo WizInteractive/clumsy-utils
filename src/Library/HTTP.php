@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Library;
+namespace Wizclumsy\Utils\Library;
 
 use Illuminate\Support\Facades\Request;
 

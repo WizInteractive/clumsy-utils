@@ -1,6 +1,6 @@
 <?php
 
-use Clumsy\Utils\Library\HTTP;
+use Wizclumsy\Utils\Library\HTTP;
 
 class HTTPTest extends PHPUnit_Framework_TestCase
 {

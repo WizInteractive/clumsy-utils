@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Models\Traits;
+namespace Wizclumsy\Utils\Models\Traits;
 
 use Illuminate\Support\Facades\Mail;
 

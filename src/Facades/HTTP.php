@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Facades;
+namespace Wizclumsy\Utils\Facades;
 
 class HTTP extends \Illuminate\Support\Facades\Facade
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Mail;
+namespace Wizclumsy\Utils\Mail;
 
 use Swift_Mime_Message;
 use Illuminate\Mail\Transport\MandrillTransport as BaseMandrill;

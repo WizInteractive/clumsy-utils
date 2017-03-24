@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Validation\ES;
+namespace Wizclumsy\Utils\Validation\ES;
 
 use Illuminate\Support\Facades\DB;
 

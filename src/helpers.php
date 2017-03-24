@@ -12,14 +12,14 @@ if (!function_exists('ebr')) {
 if (!function_exists('set_locale')) {
     function set_locale($category, $locale = false)
     {
-        return Clumsy\Utils\Facades\EnvironmentLocale::set($category, $locale);
+        return Wizclumsy\Utils\Facades\EnvironmentLocale::set($category, $locale);
     }
 }
 
 if (!function_exists('get_possible_locales')) {
     function get_possible_locales($locale)
     {
-        return Clumsy\Utils\Facades\EnvironmentLocale::getPossibleLocales($locale);
+        return Wizclumsy\Utils\Facades\EnvironmentLocale::getPossibleLocales($locale);
     }
 }
 
@@ -41,7 +41,7 @@ if (!function_exists('n')) {
     function n($number)
     {
         if (class_exists('NumberFormatter')) {
-            $formatter = new NumberFormatter(Clumsy\Utils\Facades\EnvironmentLocale::preferred(), NumberFormatter::DECIMAL);
+            $formatter = new NumberFormatter(Wizclumsy\Utils\Facades\EnvironmentLocale::preferred(), NumberFormatter::DECIMAL);
 
             return $formatter->format($number);
         }
@@ -54,7 +54,7 @@ if (!function_exists('money')) {
     function money($number)
     {
         if (class_exists('NumberFormatter')) {
-            $formatter = new NumberFormatter(Clumsy\Utils\Facades\EnvironmentLocale::preferred(), NumberFormatter::CURRENCY);
+            $formatter = new NumberFormatter(Wizclumsy\Utils\Facades\EnvironmentLocale::preferred(), NumberFormatter::CURRENCY);
 
             return $formatter->formatCurrency((int)$number, $formatter->getTextAttribute(NumberFormatter::CURRENCY_CODE));
         }
@@ -73,7 +73,7 @@ if (!function_exists('pc')) {
     function pc($number)
     {
         if (class_exists('NumberFormatter')) {
-            $formatter = new NumberFormatter(Clumsy\Utils\Facades\EnvironmentLocale::preferred(), NumberFormatter::PERCENT);
+            $formatter = new NumberFormatter(Wizclumsy\Utils\Facades\EnvironmentLocale::preferred(), NumberFormatter::PERCENT);
 
             return $formatter->format($number);
         }
@@ -85,7 +85,7 @@ if (!function_exists('pc')) {
 if (!function_exists('display_date')) {
     function display_date($date, $format)
     {
-        return Clumsy\Utils\Facades\Date::format($date, $format);
+        return Wizclumsy\Utils\Facades\Date::format($date, $format);
     }
 }
 

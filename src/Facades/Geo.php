@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Utils\Facades;
+namespace Wizclumsy\Utils\Facades;
 
 class Geo extends \Illuminate\Support\Facades\Facade
 {
@@ -11,6 +11,6 @@ class Geo extends \Illuminate\Support\Facades\Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'Clumsy\Utils\Library\Geo';
+        return 'Wizclumsy\Utils\Library\Geo';
     }
 }

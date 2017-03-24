@@ -1,5 +1,5 @@
 <?php
-namespace Clumsy\Utils\Library;
+namespace Wizclumsy\Utils\Library;
 
 use Closure;
 use Illuminate\Foundation\Application;
